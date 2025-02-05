@@ -1,0 +1,299 @@
+{
+  "url": "https://www.highhopes-campaign.co.uk/symptoms-and-causes",
+  "browserOptions": {
+    "width": 1280,
+    "disableJS": false,
+    "adBlocker": true,
+    "gdprBlocker": true,
+    "delay": 0,
+    "screenshot": false
+  },
+  "autoDetect": true,
+  "template": {
+    "raw": "/html[1]/body[1]/div[1]/helix-core-header[1]\n  - /html[1]/body[1]/div[1]/helix-core-header[1]/div[1]/helix-core-menu[1]/helix-core-menu-item[1]\n  - /html[1]/body[1]/div[1]/helix-core-header[1]/div[1]/helix-core-menu[1]/helix-core-menu-item[2]\n  - /html[1]/body[1]/div[1]/helix-core-header[1]/div[1]/helix-core-menu[1]/helix-core-menu-item[3]\n  - /html[1]/body[1]/div[1]/helix-core-header[1]/div[1]/helix-core-menu[1]/helix-core-menu-item[4]\n  - /html[1]/body[1]/div[1]/helix-core-header[1]/div[1]/helix-core-menu[1]/helix-core-menu-item[5]\n  - /html[1]/body[1]/div[1]/helix-core-header[1]/div[1]/helix-core-menu[1]/helix-core-logo[1]\n  /html[1]/body[1]/div[2]/helix-core-hero[1]\n  - /html[1]/body[1]/div[2]/helix-core-hero[1]/helix-core-content[2]\n  - /html[1]/body[1]/div[2]/helix-core-hero[1]/helix-core-image[1]\n  /html[1]/body[1]/helix-core-layout-container[1]\n  - /html[1]/body[1]/helix-core-layout-container[1]/helix-core-grid[1]/helix-core-grid-item[1]/helix-core-content[1]/h2[1]\n  - /html[1]/body[1]/helix-core-layout-container[1]/helix-core-grid[1]/helix-core-grid-item[1]/helix-core-content[1]/h3[1]\n  - /html[1]/body[1]/helix-core-layout-container[1]/helix-core-grid[1]/helix-core-grid-item[1]/helix-core-content[1]/ul[1]\n  - /html[1]/body[1]/helix-core-layout-container[1]/helix-core-grid[1]/helix-core-grid-item[1]/helix-core-content[1]/p[1]\n  - /html[1]/body[1]/helix-core-layout-container[1]/helix-core-grid[1]/helix-core-grid-item[1]/helix-core-content[1]/p[2]\n  - /html[1]/body[1]/helix-core-layout-container[1]/helix-core-grid[1]/helix-core-grid-item[1]/helix-core-content[1]/p[3]\n  /html[1]/body[1]/div[3]/helix-core-layout-container[1]\n  /html[1]/body[1]/helix-core-layout-container[2]\n  /html[1]/body[1]/div[4]/helix-core-layout-container[1]\n  /html[1]/body[1]/div[5]/helix-core-layout-container[1]\n  /html[1]/body[1]/div[6]/helix-core-footer[1]\n  - /html[1]/body[1]/div[6]/helix-core-footer[1]/helix-core-footer-content[1]/div[1]/helix-core-logo[1]\n  - /html[1]/body[1]/div[6]/helix-core-footer[1]/helix-core-footer-content[1]/div[1]/div[1]",
+    "hash": -1587803301
+  },
+  "pageHeight": 3202,
+  "mapping": [
+    {
+      "id": 1,
+      "path": "/nav",
+      "sections": [
+        {
+          "id": "1-1",
+          "blocks": [
+            {
+              "id": "box-id-1282534824",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 108,
+              "xpath": "/html[1]/body[1]/div[1]/helix-core-header[1]",
+              "childrenXpaths": [
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/helix-core-header[1]/div[1]/helix-core-menu[1]/helix-core-menu-item[1]",
+                  "xpathWithDetails": "id(\"helix-core-menu-item-39689\")"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/helix-core-header[1]/div[1]/helix-core-menu[1]/helix-core-menu-item[2]",
+                  "xpathWithDetails": "id(\"helix-core-menu-item-71571\")"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/helix-core-header[1]/div[1]/helix-core-menu[1]/helix-core-menu-item[3]",
+                  "xpathWithDetails": "id(\"helix-core-menu-item-42238\")"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/helix-core-header[1]/div[1]/helix-core-menu[1]/helix-core-menu-item[4]",
+                  "xpathWithDetails": "id(\"helix-core-menu-item-83219\")"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/helix-core-header[1]/div[1]/helix-core-menu[1]/helix-core-menu-item[5]",
+                  "xpathWithDetails": "id(\"helix-core-menu-item-99730\")"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/helix-core-header[1]/div[1]/helix-core-menu[1]/helix-core-logo[1]",
+                  "xpathWithDetails": "id(\"ic8f\")"
+                }
+              ],
+              "layout": {
+                "numCols": 6,
+                "numRows": 1
+              },
+              "x": 0,
+              "y": 0,
+              "mapping": "header",
+              "customBlockName": "aiheader"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "path": "/symptoms-and-causes",
+      "sections": [
+        {
+          "id": "2-1",
+          "blocks": [
+            {
+              "id": "box-id-952722972",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 622,
+              "xpath": "/html[1]/body[1]/div[2]/helix-core-hero[1]",
+              "childrenXpaths": [
+                {
+                  "xpath": "/html[1]/body[1]/div[2]/helix-core-hero[1]/helix-core-content[2]",
+                  "xpathWithDetails": "id(\"iavj\")"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[2]/helix-core-hero[1]/helix-core-image[1]",
+                  "xpathWithDetails": "id(\"ijtr\")"
+                }
+              ],
+              "layout": {
+                "numCols": 2,
+                "numRows": 1
+              },
+              "x": 0,
+              "y": 108,
+              "mapping": "columns",
+              "customBlockName": "aicolumns"
+            },
+            {
+              "id": "box-id--1533166172",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1200,
+              "height": 42,
+              "xpath": "/html[1]/body[1]/helix-core-layout-container[1]/helix-core-grid[1]/helix-core-grid-item[1]/helix-core-content[1]/h2[1]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 40,
+              "y": 810,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent"
+            },
+            {
+              "id": "box-id--1533136381",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1200,
+              "height": 128,
+              "xpath": "/html[1]/body[1]/helix-core-layout-container[1]/helix-core-grid[1]/helix-core-grid-item[1]/helix-core-content[1]/h3[1]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 40,
+              "y": 878,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent"
+            },
+            {
+              "id": "box-id--1519432521",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1200,
+              "height": 98,
+              "xpath": "/html[1]/body[1]/helix-core-layout-container[1]/helix-core-grid[1]/helix-core-grid-item[1]/helix-core-content[1]/ul[1]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 40,
+              "y": 1014,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent"
+            },
+            {
+              "id": "box-id-1336292816",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1200,
+              "height": 60,
+              "xpath": "/html[1]/body[1]/helix-core-layout-container[1]/helix-core-grid[1]/helix-core-grid-item[1]/helix-core-content[1]/p[1]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 40,
+              "y": 1152,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent"
+            },
+            {
+              "id": "box-id-1336292847",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1200,
+              "height": 30,
+              "xpath": "/html[1]/body[1]/helix-core-layout-container[1]/helix-core-grid[1]/helix-core-grid-item[1]/helix-core-content[1]/p[2]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 40,
+              "y": 1212,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent"
+            },
+            {
+              "id": "box-id-1336292878",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1200,
+              "height": 60,
+              "xpath": "/html[1]/body[1]/helix-core-layout-container[1]/helix-core-grid[1]/helix-core-grid-item[1]/helix-core-content[1]/p[3]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 40,
+              "y": 1242,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent"
+            },
+            {
+              "id": "box-id-2038330233",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 316,
+              "xpath": "/html[1]/body[1]/div[3]/helix-core-layout-container[1]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 0,
+              "y": 1382,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent"
+            },
+            {
+              "id": "box-id--1170256843",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 528,
+              "xpath": "/html[1]/body[1]/helix-core-layout-container[2]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 0,
+              "y": 1699,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent"
+            },
+            {
+              "id": "box-id--145346694",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 300,
+              "xpath": "/html[1]/body[1]/div[4]/helix-core-layout-container[1]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 0,
+              "y": 2227,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent"
+            },
+            {
+              "id": "box-id-1965943675",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 160,
+              "xpath": "/html[1]/body[1]/div[5]/helix-core-layout-container[1]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 0,
+              "y": 2527,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "path": "/footer",
+      "sections": [
+        {
+          "id": "3-1",
+          "blocks": [
+            {
+              "id": "box-id--1517185505",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 514,
+              "xpath": "/html[1]/body[1]/div[6]/helix-core-footer[1]",
+              "childrenXpaths": [
+                {
+                  "xpath": "/html[1]/body[1]/div[6]/helix-core-footer[1]",
+                  "xpathWithDetails": "id(\"i7qnb\")"
+                }
+              ],
+              "layout": {
+                "numCols": 2,
+                "numRows": 1
+              },
+              "x": 0,
+              "y": 2687,
+              "mapping": "footer",
+              "customBlockName": "aifooter"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
