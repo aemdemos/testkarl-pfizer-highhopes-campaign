@@ -1,0 +1,392 @@
+{
+  "inventory": {
+    "blocks": [
+      {
+        "blockName": "columns",
+        "instances": [
+          {
+            "url": "https://www.highhopes-campaign.co.uk/",
+            "id": "box-id-952722972",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 622,
+            "xpath": "/html[1]/body[1]/div[2]/helix-core-hero[1]",
+            "childrenXpaths": [
+              {
+                "xpath": "/html[1]/body[1]/div[2]/helix-core-hero[1]/helix-core-content[2]",
+                "xpathWithDetails": "id(\"iavj\")"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[2]/helix-core-hero[1]/helix-core-image[1]",
+                "xpathWithDetails": "id(\"ijtr\")"
+              }
+            ],
+            "layout": {
+              "numCols": 2,
+              "numRows": 1
+            },
+            "x": 0,
+            "y": 108,
+            "mapping": "columns",
+            "customBlockName": "aicolumns"
+          },
+          {
+            "url": "https://www.highhopes-campaign.co.uk/",
+            "id": "box-id-2038330233",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 494,
+            "xpath": "/html[1]/body[1]/div[3]/helix-core-layout-container[1]",
+            "childrenXpaths": [
+              {
+                "xpath": "/html[1]/body[1]/div[3]/helix-core-layout-container[1]/helix-core-grid[1]/helix-core-grid-item[1]",
+                "xpathWithDetails": "id(\"i5uh\")"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[3]/helix-core-layout-container[1]/helix-core-grid[1]/helix-core-grid-item[2]",
+                "xpathWithDetails": "id(\"ijsw\")"
+              }
+            ],
+            "layout": {
+              "numCols": 2,
+              "numRows": 1
+            },
+            "x": 0,
+            "y": 1085,
+            "mapping": "columns",
+            "customBlockName": "aicolumns"
+          },
+          {
+            "url": "https://www.highhopes-campaign.co.uk/",
+            "id": "box-id-769923035",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1200,
+            "height": 240,
+            "xpath": "/html[1]/body[1]/helix-core-layout-container[2]/helix-core-grid[2]",
+            "childrenXpaths": [
+              {
+                "xpath": "/html[1]/body[1]/helix-core-layout-container[2]/helix-core-grid[2]/helix-core-grid-item[1]",
+                "xpathWithDetails": "id(\"ip139\")"
+              },
+              {
+                "xpath": "/html[1]/body[1]/helix-core-layout-container[2]/helix-core-grid[2]/helix-core-grid-item[2]",
+                "xpathWithDetails": "id(\"i5s01\")"
+              }
+            ],
+            "layout": {
+              "numCols": 2,
+              "numRows": 1
+            },
+            "x": 40,
+            "y": 1831,
+            "mapping": "columns",
+            "customBlockName": "aicolumns"
+          },
+          {
+            "url": "https://www.highhopes-campaign.co.uk/symptoms-and-causes",
+            "id": "box-id-952722972",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 622,
+            "xpath": "/html[1]/body[1]/div[2]/helix-core-hero[1]",
+            "childrenXpaths": [
+              {
+                "xpath": "/html[1]/body[1]/div[2]/helix-core-hero[1]/helix-core-content[2]",
+                "xpathWithDetails": "id(\"iavj\")"
+              },
+              {
+                "xpath": "/html[1]/body[1]/div[2]/helix-core-hero[1]/helix-core-image[1]",
+                "xpathWithDetails": "id(\"ijtr\")"
+              }
+            ],
+            "layout": {
+              "numCols": 2,
+              "numRows": 1
+            },
+            "x": 0,
+            "y": 108,
+            "mapping": "columns",
+            "customBlockName": "aicolumns"
+          }
+        ]
+      },
+      {
+        "blockName": "defaultContent",
+        "instances": [
+          {
+            "url": "https://www.highhopes-campaign.co.uk/",
+            "id": "box-id--1170256874",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 354,
+            "xpath": "/html[1]/body[1]/helix-core-layout-container[1]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 0,
+            "y": 730,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent"
+          },
+          {
+            "url": "https://www.highhopes-campaign.co.uk/",
+            "id": "box-id-769923004",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1200,
+            "height": 172,
+            "xpath": "/html[1]/body[1]/helix-core-layout-container[2]/helix-core-grid[1]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 40,
+            "y": 1659,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent"
+          },
+          {
+            "url": "https://www.highhopes-campaign.co.uk/",
+            "id": "box-id--145346694",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 248,
+            "xpath": "/html[1]/body[1]/div[4]/helix-core-layout-container[1]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 0,
+            "y": 2151,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent"
+          },
+          {
+            "url": "https://www.highhopes-campaign.co.uk/",
+            "id": "box-id--1170256812",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 847,
+            "xpath": "/html[1]/body[1]/helix-core-layout-container[3]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 0,
+            "y": 2399,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent"
+          },
+          {
+            "url": "https://www.highhopes-campaign.co.uk/",
+            "id": "box-id-1965943675",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 388,
+            "xpath": "/html[1]/body[1]/div[5]/helix-core-layout-container[1]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 0,
+            "y": 3246,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent"
+          },
+          {
+            "url": "https://www.highhopes-campaign.co.uk/",
+            "id": "box-id--217733252",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 160,
+            "xpath": "/html[1]/body[1]/div[6]/helix-core-layout-container[1]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 0,
+            "y": 3635,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent"
+          },
+          {
+            "url": "https://www.highhopes-campaign.co.uk/symptoms-and-causes",
+            "id": "box-id--1533166172",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1200,
+            "height": 42,
+            "xpath": "/html[1]/body[1]/helix-core-layout-container[1]/helix-core-grid[1]/helix-core-grid-item[1]/helix-core-content[1]/h2[1]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 40,
+            "y": 810,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent"
+          },
+          {
+            "url": "https://www.highhopes-campaign.co.uk/symptoms-and-causes",
+            "id": "box-id--1533136381",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1200,
+            "height": 128,
+            "xpath": "/html[1]/body[1]/helix-core-layout-container[1]/helix-core-grid[1]/helix-core-grid-item[1]/helix-core-content[1]/h3[1]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 40,
+            "y": 878,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent"
+          },
+          {
+            "url": "https://www.highhopes-campaign.co.uk/symptoms-and-causes",
+            "id": "box-id--1519432521",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1200,
+            "height": 98,
+            "xpath": "/html[1]/body[1]/helix-core-layout-container[1]/helix-core-grid[1]/helix-core-grid-item[1]/helix-core-content[1]/ul[1]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 40,
+            "y": 1014,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent"
+          },
+          {
+            "url": "https://www.highhopes-campaign.co.uk/symptoms-and-causes",
+            "id": "box-id-1336292816",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1200,
+            "height": 60,
+            "xpath": "/html[1]/body[1]/helix-core-layout-container[1]/helix-core-grid[1]/helix-core-grid-item[1]/helix-core-content[1]/p[1]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 40,
+            "y": 1152,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent"
+          },
+          {
+            "url": "https://www.highhopes-campaign.co.uk/symptoms-and-causes",
+            "id": "box-id-1336292847",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1200,
+            "height": 30,
+            "xpath": "/html[1]/body[1]/helix-core-layout-container[1]/helix-core-grid[1]/helix-core-grid-item[1]/helix-core-content[1]/p[2]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 40,
+            "y": 1212,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent"
+          },
+          {
+            "url": "https://www.highhopes-campaign.co.uk/symptoms-and-causes",
+            "id": "box-id-1336292878",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1200,
+            "height": 60,
+            "xpath": "/html[1]/body[1]/helix-core-layout-container[1]/helix-core-grid[1]/helix-core-grid-item[1]/helix-core-content[1]/p[3]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 40,
+            "y": 1242,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent"
+          },
+          {
+            "url": "https://www.highhopes-campaign.co.uk/symptoms-and-causes",
+            "id": "box-id-2038330233",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 316,
+            "xpath": "/html[1]/body[1]/div[3]/helix-core-layout-container[1]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 0,
+            "y": 1382,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent"
+          },
+          {
+            "url": "https://www.highhopes-campaign.co.uk/symptoms-and-causes",
+            "id": "box-id--1170256843",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 528,
+            "xpath": "/html[1]/body[1]/helix-core-layout-container[2]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 0,
+            "y": 1699,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent"
+          },
+          {
+            "url": "https://www.highhopes-campaign.co.uk/symptoms-and-causes",
+            "id": "box-id--145346694",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 300,
+            "xpath": "/html[1]/body[1]/div[4]/helix-core-layout-container[1]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 0,
+            "y": 2227,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent"
+          },
+          {
+            "url": "https://www.highhopes-campaign.co.uk/symptoms-and-causes",
+            "id": "box-id-1965943675",
+            "color": "rgba(0, 255, 0, 1)",
+            "width": 1280,
+            "height": 160,
+            "xpath": "/html[1]/body[1]/div[5]/helix-core-layout-container[1]",
+            "childrenXpaths": null,
+            "layout": {
+              "numCols": 0,
+              "numRows": 0
+            },
+            "x": 0,
+            "y": 2527,
+            "mapping": "defaultContent",
+            "customBlockName": "aidefaultContent"
+          }
+        ]
+      }
+    ]
+  }
+}
