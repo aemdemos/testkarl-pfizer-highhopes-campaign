@@ -4,4 +4,4 @@ Fix #<gh-issue-id>
 
 Test URLs:
 - Before: https://main--pfizer-highhopes-campaign--aemdemos.aem.live/
-- After: https://main--pfizer-highhopes-campaign--aemdemos.aem.live/
+- After: https://<branch>--pfizer-highhopes-campaign--aemdemos.aem.live/
