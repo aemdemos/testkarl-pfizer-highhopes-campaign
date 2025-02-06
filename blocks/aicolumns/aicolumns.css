@@ -1,15 +1,19 @@
 
 .aicolumns-wrapper {
-  background-color: #FECC07; /* Yellow background color to blend with the image */
+  background-color: #FECC07; /* Yellow background color */
   padding: 0; /* Ensure no padding */
   margin: 0; /* Ensure no margin */
+  height: 100vh; /* Ensure the container height is 100% of the viewport height */
+  display: flex;
+  align-items: center; /* Center content vertically */
+  justify-content: center; /* Center content horizontally */
 }
 
 .aicolumns {
   display: flex;
   align-items: center; /* Center items vertically */
   justify-content: space-between; /* Space between the columns */
-  height: 100vh; /* Make the container height 100% of the viewport height */
+  width: 100%; /* Ensure the container takes full width */
 }
 
 .aicolumns > div {
