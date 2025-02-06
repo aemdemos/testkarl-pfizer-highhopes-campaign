@@ -1,6 +1,6 @@
 
 .aicolumns-wrapper {
-  background-color: #ffd700; /* Yellow background color */
+  background-color: #FECC07; /* Yellow background color to blend with the image */
   padding: 0; /* Ensure no padding */
   margin: 0; /* Ensure no margin */
 }
@@ -9,6 +9,7 @@
   display: flex;
   align-items: center; /* Center items vertically */
   justify-content: space-between; /* Space between the columns */
+  height: 100vh; /* Make the container height 100% of the viewport height */
 }
 
 .aicolumns > div {
@@ -16,22 +17,23 @@
   flex-direction: row; /* Ensure side-by-side layout */
   align-items: center; /* Center items vertically */
   justify-content: space-between; /* Space between elements */
+  width: 100%; /* Ensure the div takes up full width */
 }
 
 .aicolumns > div > div:first-child {
   flex: 1;
-  padding: 20px; /* Add padding for spacing */
+  padding: 0 20px; /* Adjust padding for spacing */
   display: flex;
-  flex-direction: column; /* Stack text elements vertically */
+  flex-direction: column; /* Ensure text elements are stacked vertically */
   justify-content: center; /* Center text vertically */
   text-align: left; /* Align text to the left */
 }
 
 .aicolumns > div > .aicolumns-img-col {
-  flex: 1;
-  padding: 20px; /* Add padding for spacing */
+  flex: 2; /* Increase the flex value to make the image block larger */
+  padding: 0; /* Remove padding to allow images to occupy more space */
   display: flex;
-  justify-content: center; /* Center image horizontally */
+  justify-content: flex-start; /* Align images to the start of the flex container */
   align-items: center; /* Center image vertically */
 }
 
@@ -41,11 +43,11 @@
 }
 
 .aicolumns h1 {
-  font-size: 48px; /* Adjust font size */
+  font-size: 3em; /* Adjust font size */
   font-weight: bold; /* Make text bold */
   margin: 0; /* Remove default margins */
   line-height: 1.2; /* Adjust line height */
-  margin-bottom: 5px; /* Adjust margin below the heading */
+  margin-bottom: 10px; /* Adjust margin below the heading */
 }
 
 .aicolumns p {
