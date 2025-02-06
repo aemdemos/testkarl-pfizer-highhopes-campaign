@@ -1,9 +1,9 @@
 
 .aicolumns-wrapper {
-  background-color: #FECC07; /* Yellow background color */
+  background-color: var(--yellow); /* Use the CSS variable for yellow background color */
   padding: 0; /* Ensure no padding */
   margin: 0; /* Ensure no margin */
-  height: 100vh; /* Ensure the container height is 100% of the viewport height */
+  width: 100%; /* Ensure the container width is 100% of the viewport width */
   display: flex;
   align-items: center; /* Center content vertically */
   justify-content: center; /* Center content horizontally */
@@ -13,7 +13,9 @@
   display: flex;
   align-items: center; /* Center items vertically */
   justify-content: space-between; /* Space between the columns */
-  width: 100%; /* Ensure the container takes full width */
+  width: 90%; /* Reduce width to create more padding */
+  max-width: 1200px; /* Optionally set a max-width */
+  margin: 0 auto; /* Center the block horizontally */
 }
 
 .aicolumns > div {
@@ -25,19 +27,19 @@
 }
 
 .aicolumns > div > div:first-child {
-  flex: 1;
+  flex: 0.3; /* Adjust flex value to make the text block more compact */
   padding: 0 20px; /* Adjust padding for spacing */
   display: flex;
-  flex-direction: column; /* Ensure text elements are stacked vertically */
+  flex-direction: column; /* Stack text elements vertically */
   justify-content: center; /* Center text vertically */
   text-align: left; /* Align text to the left */
 }
 
 .aicolumns > div > .aicolumns-img-col {
-  flex: 2; /* Increase the flex value to make the image block larger */
+  flex: 0.7; /* Adjust flex value to balance the image block size */
   padding: 0; /* Remove padding to allow images to occupy more space */
   display: flex;
-  justify-content: flex-start; /* Align images to the start of the flex container */
+  justify-content: center; /* Center images horizontally */
   align-items: center; /* Center image vertically */
 }
 
