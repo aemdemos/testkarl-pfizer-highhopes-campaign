@@ -11,11 +11,11 @@
  * governing permissions and limitations under the License.
  */
 :root {
-  --background-color: white;
-  --light-color: #f8f8f8;
-  --dark-color: #505050;
-  --text-color: #131313;
-  --link-color: #3b63fb;
+  --yellow: #ffcb05;
+  --red: #f15d53;
+  --teal: #505050;
+  --text-color: #424242;
+  --link-color: var(--text-color);
   --link-hover-color: #1d3ecf;
   --body-font-family: "Montserrat", "Montserrat Fallback", "sans-serif";
   --heading-font-family: "Aleo", "Aleo Fallback", "serif";
@@ -28,7 +28,10 @@
   --heading-font-size-m: 18px;
   --heading-font-size-s: 14.94px;
   --heading-font-size-xs: 12.06px;
+
+  /* sizes */
   --nav-height: 64px;
+  --page-width: 1200px;
 }
 
 /* fallback fonts */
@@ -312,7 +315,6 @@ a.button:any-link, button {
   text-align: center;
   text-decoration: none;
   background-color: var(--link-color);
-  color: var(--background-color);
   cursor: pointer;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -325,7 +327,6 @@ a.button:hover, a.button:focus, button:hover, button:focus {
 }
 
 button:disabled, button:disabled:hover {
-  background-color: var(--light-color);
   cursor: unset;
 }
 
@@ -357,15 +358,18 @@ main>.section {
   margin: 40px 0;
 }
 
-main>.section>div {
-  max-width: 1200px;
+
+/* center align all blocks by default */
+div[class*="-wrapper"] > div {
   margin: auto;
-  padding: 0 24px;
+  width: var(--page-width);
+
+  > div {
+    width: 100%;
+  }
 }
 
-main>.section:first-of-type {
-  margin-top: 0;
-}
+
 
 @media (width>=900px) {
   main>.section>div {
@@ -373,13 +377,23 @@ main>.section:first-of-type {
   }
 }
 
-/* section metadata */
-main .section.light, main .section.highlight {
-  background-color: var(--light-color);
-  margin: 0;
-  padding: 40px 0;
-}
 
 .section.hidden {
   display: none;
 }
+
+
+
+/* leverage word for table/div alignment */
+div[data-align], div[data-valign] { display: flex }
+
+/* Horizontal alignment */
+[data-align="left"] { justify-content: flex-start }
+[data-align="center"] { justify-content: center }
+[data-align="right"] { justify-content: flex-end }
+
+/* Vertical alignment */
+[data-valign="top"] { align-items: flex-start }
+[data-valign="middle"] { align-items: center }
+[data-valign="bottom"] { align-items: flex-end }
+
