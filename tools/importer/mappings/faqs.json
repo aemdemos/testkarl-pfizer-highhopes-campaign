@@ -1,0 +1,135 @@
+{
+  "url": "https://www.highhopes-campaign.co.uk/faqs",
+  "browserOptions": {
+    "width": 1280,
+    "disableJS": false,
+    "adBlocker": true,
+    "gdprBlocker": true,
+    "delay": 0,
+    "screenshot": false
+  },
+  "autoDetect": true,
+  "template": {
+    "raw": "/html[1]/body[1]/div[1]/helix-core-header[1]\n  - /html[1]/body[1]/div[1]/helix-core-header[1]/div[1]/helix-core-menu[1]/helix-core-menu-item[1]\n  - /html[1]/body[1]/div[1]/helix-core-header[1]/div[1]/helix-core-menu[1]/helix-core-menu-item[2]\n  - /html[1]/body[1]/div[1]/helix-core-header[1]/div[1]/helix-core-menu[1]/helix-core-menu-item[3]\n  - /html[1]/body[1]/div[1]/helix-core-header[1]/div[1]/helix-core-menu[1]/helix-core-menu-item[4]\n  - /html[1]/body[1]/div[1]/helix-core-header[1]/div[1]/helix-core-menu[1]/helix-core-menu-item[5]\n  - /html[1]/body[1]/div[1]/helix-core-header[1]/div[1]/helix-core-menu[1]/helix-core-logo[1]\n  /html[1]/body[1]/div[2]/helix-core-hero[1]\n  - /html[1]/body[1]/div[2]/helix-core-hero[1]/helix-core-content[2]\n  - /html[1]/body[1]/div[2]/helix-core-hero[1]/helix-core-image[1]\n  /html[1]/body[1]/helix-core-layout-container[1]\n  /html[1]/body[1]/helix-core-layout-container[2]\n  - /html[1]/body[1]/helix-core-layout-container[2]/helix-core-grid[1]\n  - /html[1]/body[1]/helix-core-layout-container[2]/helix-core-grid[1]/helix-core-grid-item[1]/helix-core-tabs[1]/section[1]/helix-core-accordion[1]/helix-core-accordion-panel[5]/helix-core-content[1]\n  /html[1]/body[1]/div[3]/helix-core-layout-container[1]\n  /html[1]/body[1]/div[4]/helix-core-footer[1]\n  - /html[1]/body[1]/div[4]/helix-core-footer[1]/helix-core-footer-content[1]/div[1]/helix-core-logo[1]\n  - /html[1]/body[1]/div[4]/helix-core-footer[1]/helix-core-footer-content[1]/div[1]/div[1]",
+    "hash": -1795451375
+  },
+  "pageHeight": 2355,
+  "mapping": [
+    {
+      "id": 2,
+      "path": "/faqs",
+      "sections": [
+        {
+          "id": "2-1",
+          "blocks": [
+            {
+              "id": "box-id-952722972",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 622,
+              "xpath": "/html[1]/body[1]/div[2]/helix-core-hero[1]",
+              "childrenXpaths": [
+                {
+                  "xpath": "/html[1]/body[1]/div[2]/helix-core-hero[1]/helix-core-content[2]",
+                  "xpathWithDetails": "id(\"iavj\")"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[2]/helix-core-hero[1]/helix-core-image[1]",
+                  "xpathWithDetails": "id(\"ijtr\")"
+                }
+              ],
+              "layout": {
+                "numCols": 2,
+                "numRows": 1
+              },
+              "x": 0,
+              "y": 108,
+              "mapping": "columns",
+              "customBlockName": "aicolumns"
+            },
+            {
+              "id": "box-id--1170256874",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 270,
+              "xpath": "/html[1]/body[1]/helix-core-layout-container[1]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 0,
+              "y": 730,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent"
+            },
+            {
+              "id": "box-id--2146779887",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1200,
+              "height": 384,
+              "xpath": "/html[1]/body[1]/helix-core-layout-container[2]/helix-core-grid[1]/helix-core-grid-item[1]/helix-core-tabs[1]/section[1]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 40,
+              "y": 1200,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent"
+            },
+            {
+              "id": "box-id-1280681427",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1152,
+              "height": 90,
+              "xpath": "/html[1]/body[1]/helix-core-layout-container[2]/helix-core-grid[1]/helix-core-grid-item[1]/helix-core-tabs[1]/section[1]/helix-core-accordion[1]/helix-core-accordion-panel[4]/helix-core-content[1]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 64,
+              "y": 1524,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent"
+            },
+            {
+              "id": "box-id-1213674674",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1152,
+              "height": 90,
+              "xpath": "/html[1]/body[1]/helix-core-layout-container[2]/helix-core-grid[1]/helix-core-grid-item[1]/helix-core-tabs[1]/section[1]/helix-core-accordion[1]/helix-core-accordion-panel[5]/helix-core-content[1]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 64,
+              "y": 1604,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent"
+            },
+            {
+              "id": "box-id-2038330233",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 160,
+              "xpath": "/html[1]/body[1]/div[3]/helix-core-layout-container[1]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 0,
+              "y": 1680,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

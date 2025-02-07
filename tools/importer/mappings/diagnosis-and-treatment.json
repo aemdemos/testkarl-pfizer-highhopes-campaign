@@ -1,5 +1,5 @@
 {
-  "url": "https://www.highhopes-campaign.co.uk/symptoms-and-causes",
+  "url": "https://www.highhopes-campaign.co.uk/diagnosis-and-treatment",
   "browserOptions": {
     "width": 1280,
     "disableJS": false,
@@ -10,14 +10,14 @@
   },
   "autoDetect": true,
   "template": {
-    "raw": "/html[1]/body[1]/div[1]/helix-core-header[1]\n  - /html[1]/body[1]/div[1]/helix-core-header[1]/div[1]/helix-core-menu[1]/helix-core-menu-item[1]\n  - /html[1]/body[1]/div[1]/helix-core-header[1]/div[1]/helix-core-menu[1]/helix-core-menu-item[2]\n  - /html[1]/body[1]/div[1]/helix-core-header[1]/div[1]/helix-core-menu[1]/helix-core-menu-item[3]\n  - /html[1]/body[1]/div[1]/helix-core-header[1]/div[1]/helix-core-menu[1]/helix-core-menu-item[4]\n  - /html[1]/body[1]/div[1]/helix-core-header[1]/div[1]/helix-core-menu[1]/helix-core-menu-item[5]\n  - /html[1]/body[1]/div[1]/helix-core-header[1]/div[1]/helix-core-menu[1]/helix-core-logo[1]\n  /html[1]/body[1]/div[2]/helix-core-hero[1]\n  - /html[1]/body[1]/div[2]/helix-core-hero[1]/helix-core-content[2]\n  - /html[1]/body[1]/div[2]/helix-core-hero[1]/helix-core-image[1]\n  /html[1]/body[1]/helix-core-layout-container[1]\n  - /html[1]/body[1]/helix-core-layout-container[1]/helix-core-grid[1]/helix-core-grid-item[1]/helix-core-content[1]/h2[1]\n  - /html[1]/body[1]/helix-core-layout-container[1]/helix-core-grid[1]/helix-core-grid-item[1]/helix-core-content[1]/h3[1]\n  - /html[1]/body[1]/helix-core-layout-container[1]/helix-core-grid[1]/helix-core-grid-item[1]/helix-core-content[1]/ul[1]\n  - /html[1]/body[1]/helix-core-layout-container[1]/helix-core-grid[1]/helix-core-grid-item[1]/helix-core-content[1]/p[1]\n  - /html[1]/body[1]/helix-core-layout-container[1]/helix-core-grid[1]/helix-core-grid-item[1]/helix-core-content[1]/p[2]\n  - /html[1]/body[1]/helix-core-layout-container[1]/helix-core-grid[1]/helix-core-grid-item[1]/helix-core-content[1]/p[3]\n  /html[1]/body[1]/div[3]/helix-core-layout-container[1]\n  /html[1]/body[1]/helix-core-layout-container[2]\n  /html[1]/body[1]/div[4]/helix-core-layout-container[1]\n  /html[1]/body[1]/div[5]/helix-core-layout-container[1]\n  /html[1]/body[1]/div[6]/helix-core-footer[1]\n  - /html[1]/body[1]/div[6]/helix-core-footer[1]/helix-core-footer-content[1]/div[1]/helix-core-logo[1]\n  - /html[1]/body[1]/div[6]/helix-core-footer[1]/helix-core-footer-content[1]/div[1]/div[1]",
-    "hash": -1587803301
+    "raw": "/html[1]/body[1]/div[1]/helix-core-header[1]\n  - /html[1]/body[1]/div[1]/helix-core-header[1]/div[1]/helix-core-menu[1]/helix-core-menu-item[1]\n  - /html[1]/body[1]/div[1]/helix-core-header[1]/div[1]/helix-core-menu[1]/helix-core-menu-item[2]\n  - /html[1]/body[1]/div[1]/helix-core-header[1]/div[1]/helix-core-menu[1]/helix-core-menu-item[3]\n  - /html[1]/body[1]/div[1]/helix-core-header[1]/div[1]/helix-core-menu[1]/helix-core-menu-item[4]\n  - /html[1]/body[1]/div[1]/helix-core-header[1]/div[1]/helix-core-menu[1]/helix-core-menu-item[5]\n  - /html[1]/body[1]/div[1]/helix-core-header[1]/div[1]/helix-core-menu[1]/helix-core-logo[1]\n  /html[1]/body[1]/div[2]/helix-core-hero[1]\n  - /html[1]/body[1]/div[2]/helix-core-hero[1]/helix-core-content[2]\n  - /html[1]/body[1]/div[2]/helix-core-hero[1]/helix-core-image[1]\n  /html[1]/body[1]/helix-core-layout-container[1]\n  /html[1]/body[1]/div[3]/helix-core-layout-container[1]\n  /html[1]/body[1]/helix-core-layout-container[2]\n  - /html[1]/body[1]/helix-core-layout-container[2]/helix-core-grid[1]/helix-core-grid-item[1]/helix-core-content[1]/h2[1]\n  - /html[1]/body[1]/helix-core-layout-container[2]/helix-core-grid[1]/helix-core-grid-item[1]/helix-core-content[1]/p[1]\n  - /html[1]/body[1]/helix-core-layout-container[2]/helix-core-grid[1]/helix-core-grid-item[1]/helix-core-content[1]/p[2]\n  - /html[1]/body[1]/helix-core-layout-container[2]/helix-core-grid[1]/helix-core-grid-item[1]/helix-core-content[1]/p[3]\n  - /html[1]/body[1]/helix-core-layout-container[2]/helix-core-grid[1]/helix-core-grid-item[1]/helix-core-content[1]/ul[1]\n  - /html[1]/body[1]/helix-core-layout-container[2]/helix-core-grid[1]/helix-core-grid-item[1]/helix-core-content[1]/p[4]\n  /html[1]/body[1]/div[4]/helix-core-layout-container[1]\n  /html[1]/body[1]/div[5]/helix-core-layout-container[1]\n  /html[1]/body[1]/div[6]/helix-core-footer[1]\n  - /html[1]/body[1]/div[6]/helix-core-footer[1]/helix-core-footer-content[1]/div[1]/helix-core-logo[1]\n  - /html[1]/body[1]/div[6]/helix-core-footer[1]/helix-core-footer-content[1]/div[1]/div[1]",
+    "hash": -1703630925
   },
-  "pageHeight": 3202,
+  "pageHeight": 3592,
   "mapping": [
     {
       "id": 2,
-      "path": "/symptoms-and-causes",
+      "path": "/diagnosis-and-treatment",
       "sections": [
         {
           "id": "2-1",
@@ -48,98 +48,18 @@
               "customBlockName": "aicolumns"
             },
             {
-              "id": "box-id--1533166172",
+              "id": "box-id--1170256874",
               "color": "rgba(0, 255, 0, 1)",
-              "width": 1200,
-              "height": 42,
-              "xpath": "/html[1]/body[1]/helix-core-layout-container[1]/helix-core-grid[1]/helix-core-grid-item[1]/helix-core-content[1]/h2[1]",
+              "width": 1280,
+              "height": 438,
+              "xpath": "/html[1]/body[1]/helix-core-layout-container[1]",
               "childrenXpaths": null,
               "layout": {
                 "numCols": 0,
                 "numRows": 0
               },
-              "x": 40,
-              "y": 810,
-              "mapping": "defaultContent",
-              "customBlockName": "aidefaultContent"
-            },
-            {
-              "id": "box-id--1533136381",
-              "color": "rgba(0, 255, 0, 1)",
-              "width": 1200,
-              "height": 128,
-              "xpath": "/html[1]/body[1]/helix-core-layout-container[1]/helix-core-grid[1]/helix-core-grid-item[1]/helix-core-content[1]/h3[1]",
-              "childrenXpaths": null,
-              "layout": {
-                "numCols": 0,
-                "numRows": 0
-              },
-              "x": 40,
-              "y": 878,
-              "mapping": "defaultContent",
-              "customBlockName": "aidefaultContent"
-            },
-            {
-              "id": "box-id--1519432521",
-              "color": "rgba(0, 255, 0, 1)",
-              "width": 1200,
-              "height": 98,
-              "xpath": "/html[1]/body[1]/helix-core-layout-container[1]/helix-core-grid[1]/helix-core-grid-item[1]/helix-core-content[1]/ul[1]",
-              "childrenXpaths": null,
-              "layout": {
-                "numCols": 0,
-                "numRows": 0
-              },
-              "x": 40,
-              "y": 1014,
-              "mapping": "defaultContent",
-              "customBlockName": "aidefaultContent"
-            },
-            {
-              "id": "box-id-1336292816",
-              "color": "rgba(0, 255, 0, 1)",
-              "width": 1200,
-              "height": 60,
-              "xpath": "/html[1]/body[1]/helix-core-layout-container[1]/helix-core-grid[1]/helix-core-grid-item[1]/helix-core-content[1]/p[1]",
-              "childrenXpaths": null,
-              "layout": {
-                "numCols": 0,
-                "numRows": 0
-              },
-              "x": 40,
-              "y": 1152,
-              "mapping": "defaultContent",
-              "customBlockName": "aidefaultContent"
-            },
-            {
-              "id": "box-id-1336292847",
-              "color": "rgba(0, 255, 0, 1)",
-              "width": 1200,
-              "height": 30,
-              "xpath": "/html[1]/body[1]/helix-core-layout-container[1]/helix-core-grid[1]/helix-core-grid-item[1]/helix-core-content[1]/p[2]",
-              "childrenXpaths": null,
-              "layout": {
-                "numCols": 0,
-                "numRows": 0
-              },
-              "x": 40,
-              "y": 1212,
-              "mapping": "defaultContent",
-              "customBlockName": "aidefaultContent"
-            },
-            {
-              "id": "box-id-1336292878",
-              "color": "rgba(0, 255, 0, 1)",
-              "width": 1200,
-              "height": 60,
-              "xpath": "/html[1]/body[1]/helix-core-layout-container[1]/helix-core-grid[1]/helix-core-grid-item[1]/helix-core-content[1]/p[3]",
-              "childrenXpaths": null,
-              "layout": {
-                "numCols": 0,
-                "numRows": 0
-              },
-              "x": 40,
-              "y": 1242,
+              "x": 0,
+              "y": 730,
               "mapping": "defaultContent",
               "customBlockName": "aidefaultContent"
             },
@@ -155,23 +75,103 @@
                 "numRows": 0
               },
               "x": 0,
-              "y": 1382,
+              "y": 1168,
               "mapping": "defaultContent",
               "customBlockName": "aidefaultContent"
             },
             {
-              "id": "box-id--1170256843",
+              "id": "box-id-1806279845",
               "color": "rgba(0, 255, 0, 1)",
-              "width": 1280,
-              "height": 528,
-              "xpath": "/html[1]/body[1]/helix-core-layout-container[2]",
+              "width": 1200,
+              "height": 42,
+              "xpath": "/html[1]/body[1]/helix-core-layout-container[2]/helix-core-grid[1]/helix-core-grid-item[1]/helix-core-content[1]/h2[1]",
               "childrenXpaths": null,
               "layout": {
                 "numCols": 0,
                 "numRows": 0
               },
-              "x": 0,
-              "y": 1699,
+              "x": 40,
+              "y": 1565,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent"
+            },
+            {
+              "id": "box-id--772740433",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1200,
+              "height": 150,
+              "xpath": "/html[1]/body[1]/helix-core-layout-container[2]/helix-core-grid[1]/helix-core-grid-item[1]/helix-core-content[1]/p[1]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 40,
+              "y": 1633,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent"
+            },
+            {
+              "id": "box-id--772740402",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1200,
+              "height": 30,
+              "xpath": "/html[1]/body[1]/helix-core-layout-container[2]/helix-core-grid[1]/helix-core-grid-item[1]/helix-core-content[1]/p[2]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 40,
+              "y": 1783,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent"
+            },
+            {
+              "id": "box-id--772740371",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1200,
+              "height": 300,
+              "xpath": "/html[1]/body[1]/helix-core-layout-container[2]/helix-core-grid[1]/helix-core-grid-item[1]/helix-core-content[1]/p[3]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 40,
+              "y": 1813,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent"
+            },
+            {
+              "id": "box-id-1820013496",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1200,
+              "height": 106,
+              "xpath": "/html[1]/body[1]/helix-core-layout-container[2]/helix-core-grid[1]/helix-core-grid-item[1]/helix-core-content[1]/ul[1]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 40,
+              "y": 2113,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent"
+            },
+            {
+              "id": "box-id--772740340",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1200,
+              "height": 300,
+              "xpath": "/html[1]/body[1]/helix-core-layout-container[2]/helix-core-grid[1]/helix-core-grid-item[1]/helix-core-content[1]/p[4]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 40,
+              "y": 2237,
               "mapping": "defaultContent",
               "customBlockName": "aidefaultContent"
             },
@@ -187,7 +187,7 @@
                 "numRows": 0
               },
               "x": 0,
-              "y": 2227,
+              "y": 2617,
               "mapping": "defaultContent",
               "customBlockName": "aidefaultContent"
             },
@@ -203,7 +203,7 @@
                 "numRows": 0
               },
               "x": 0,
-              "y": 2527,
+              "y": 2917,
               "mapping": "defaultContent",
               "customBlockName": "aidefaultContent"
             }

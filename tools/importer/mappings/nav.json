@@ -1,0 +1,71 @@
+{
+  "url": "https://www.highhopes-campaign.co.uk",
+  "browserOptions": {
+    "width": 1280,
+    "disableJS": false,
+    "adBlocker": true,
+    "gdprBlocker": true,
+    "delay": 0,
+    "screenshot": false
+  },
+  "autoDetect": true,
+  "template": {
+    "raw": "/html[1]/body[1]/div[1]/helix-core-header[1]\n  - /html[1]/body[1]/div[1]/helix-core-header[1]/div[1]/helix-core-menu[1]/helix-core-menu-item[1]\n  - /html[1]/body[1]/div[1]/helix-core-header[1]/div[1]/helix-core-menu[1]/helix-core-menu-item[2]\n  - /html[1]/body[1]/div[1]/helix-core-header[1]/div[1]/helix-core-menu[1]/helix-core-menu-item[3]\n  - /html[1]/body[1]/div[1]/helix-core-header[1]/div[1]/helix-core-menu[1]/helix-core-menu-item[4]\n  - /html[1]/body[1]/div[1]/helix-core-header[1]/div[1]/helix-core-menu[1]/helix-core-menu-item[5]\n  - /html[1]/body[1]/div[1]/helix-core-header[1]/div[1]/helix-core-menu[1]/helix-core-logo[1]\n  /html[1]/body[1]/div[2]/helix-core-hero[1]\n  - /html[1]/body[1]/div[2]/helix-core-hero[1]/helix-core-content[2]\n  - /html[1]/body[1]/div[2]/helix-core-hero[1]/helix-core-image[1]\n  /html[1]/body[1]/helix-core-layout-container[1]\n  /html[1]/body[1]/div[3]/helix-core-layout-container[1]\n  - /html[1]/body[1]/div[3]/helix-core-layout-container[1]/helix-core-grid[1]/helix-core-grid-item[1]\n  - /html[1]/body[1]/div[3]/helix-core-layout-container[1]/helix-core-grid[1]/helix-core-grid-item[2]\n  /html[1]/body[1]/helix-core-layout-container[2]\n  - /html[1]/body[1]/helix-core-layout-container[2]/helix-core-grid[1]\n  - /html[1]/body[1]/helix-core-layout-container[2]/helix-core-grid[2]\n  /html[1]/body[1]/div[4]/helix-core-layout-container[1]\n  /html[1]/body[1]/helix-core-layout-container[3]\n  /html[1]/body[1]/div[5]/helix-core-layout-container[1]\n  /html[1]/body[1]/div[6]/helix-core-layout-container[1]\n  /html[1]/body[1]/div[7]/helix-core-footer[1]\n  - /html[1]/body[1]/div[7]/helix-core-footer[1]/helix-core-footer-content[1]/div[1]/helix-core-logo[1]\n  - /html[1]/body[1]/div[7]/helix-core-footer[1]/helix-core-footer-content[1]/div[1]/div[1]",
+    "hash": 907732171
+  },
+  "pageHeight": 4309,
+  "mapping": [
+    {
+      "id": "nav-1",
+      "path": "/nav",
+      "sections": [
+        {
+          "id": "nav-1-1",
+          "blocks": [
+            {
+              "id": "box-id-1282534824",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 108,
+              "xpath": "/html[1]/body[1]/div[1]/helix-core-header[1]",
+              "childrenXpaths": [
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/helix-core-header[1]/div[1]/helix-core-menu[1]/helix-core-menu-item[1]",
+                  "xpathWithDetails": "id(\"helix-core-menu-item-50487\")"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/helix-core-header[1]/div[1]/helix-core-menu[1]/helix-core-menu-item[2]",
+                  "xpathWithDetails": "id(\"helix-core-menu-item-81326\")"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/helix-core-header[1]/div[1]/helix-core-menu[1]/helix-core-menu-item[3]",
+                  "xpathWithDetails": "id(\"helix-core-menu-item-1328\")"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/helix-core-header[1]/div[1]/helix-core-menu[1]/helix-core-menu-item[4]",
+                  "xpathWithDetails": "id(\"helix-core-menu-item-12300\")"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/helix-core-header[1]/div[1]/helix-core-menu[1]/helix-core-menu-item[5]",
+                  "xpathWithDetails": "id(\"helix-core-menu-item-13220\")"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/helix-core-header[1]/div[1]/helix-core-menu[1]/helix-core-logo[1]",
+                  "xpathWithDetails": "id(\"ic8f\")"
+                }
+              ],
+              "layout": {
+                "numCols": 6,
+                "numRows": 1
+              },
+              "x": 0,
+              "y": 0,
+              "mapping": "header",
+              "customBlockName": "aiheader"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

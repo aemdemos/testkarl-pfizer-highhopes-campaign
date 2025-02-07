@@ -1,0 +1,51 @@
+{
+  "url": "https://www.highhopes-campaign.co.uk",
+  "browserOptions": {
+    "width": 1280,
+    "disableJS": false,
+    "adBlocker": true,
+    "gdprBlocker": true,
+    "delay": 0,
+    "screenshot": false
+  },
+  "autoDetect": true,
+  "template": {
+    "raw": "/html[1]/body[1]/div[1]/helix-core-header[1]\n  - /html[1]/body[1]/div[1]/helix-core-header[1]/div[1]/helix-core-menu[1]/helix-core-menu-item[1]\n  - /html[1]/body[1]/div[1]/helix-core-header[1]/div[1]/helix-core-menu[1]/helix-core-menu-item[2]\n  - /html[1]/body[1]/div[1]/helix-core-header[1]/div[1]/helix-core-menu[1]/helix-core-menu-item[3]\n  - /html[1]/body[1]/div[1]/helix-core-header[1]/div[1]/helix-core-menu[1]/helix-core-menu-item[4]\n  - /html[1]/body[1]/div[1]/helix-core-header[1]/div[1]/helix-core-menu[1]/helix-core-menu-item[5]\n  - /html[1]/body[1]/div[1]/helix-core-header[1]/div[1]/helix-core-menu[1]/helix-core-logo[1]\n  /html[1]/body[1]/div[2]/helix-core-hero[1]\n  - /html[1]/body[1]/div[2]/helix-core-hero[1]/helix-core-content[2]\n  - /html[1]/body[1]/div[2]/helix-core-hero[1]/helix-core-image[1]\n  /html[1]/body[1]/helix-core-layout-container[1]\n  /html[1]/body[1]/div[3]/helix-core-layout-container[1]\n  - /html[1]/body[1]/div[3]/helix-core-layout-container[1]/helix-core-grid[1]/helix-core-grid-item[1]\n  - /html[1]/body[1]/div[3]/helix-core-layout-container[1]/helix-core-grid[1]/helix-core-grid-item[2]\n  /html[1]/body[1]/helix-core-layout-container[2]\n  - /html[1]/body[1]/helix-core-layout-container[2]/helix-core-grid[1]\n  - /html[1]/body[1]/helix-core-layout-container[2]/helix-core-grid[2]\n  /html[1]/body[1]/div[4]/helix-core-layout-container[1]\n  /html[1]/body[1]/helix-core-layout-container[3]\n  /html[1]/body[1]/div[5]/helix-core-layout-container[1]\n  /html[1]/body[1]/div[6]/helix-core-layout-container[1]\n  /html[1]/body[1]/div[7]/helix-core-footer[1]\n  - /html[1]/body[1]/div[7]/helix-core-footer[1]/helix-core-footer-content[1]/div[1]/helix-core-logo[1]\n  - /html[1]/body[1]/div[7]/helix-core-footer[1]/helix-core-footer-content[1]/div[1]/div[1]",
+    "hash": 907732171
+  },
+  "pageHeight": 4309,
+  "mapping": [
+    {
+      "id": "footer-1",
+      "path": "/footer",
+      "sections": [
+        {
+          "id": "footer-1-1",
+          "blocks": [
+            {
+              "id": "box-id--272421024",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 514,
+              "xpath": "/html[1]/body[1]/div[7]/helix-core-footer[1]",
+              "childrenXpaths": [
+                {
+                  "xpath": "/html[1]/body[1]/div[7]/helix-core-footer[1]",
+                  "xpathWithDetails": "id(\"i7qnb\")"
+                }
+              ],
+              "layout": {
+                "numCols": 2,
+                "numRows": 1
+              },
+              "x": 0,
+              "y": 3795,
+              "mapping": "footer",
+              "customBlockName": "aifooter"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
