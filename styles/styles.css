@@ -10,13 +10,17 @@
  * OF ANY KIND, either express or implied. See the License for the specific language
  * governing permissions and limitations under the License.
  */
+
+/* stylelint-disable declaration-block-single-line-max-declarations, no-descending-specificity */
+
 :root {
   --yellow: #ffcb05;
   --red: #f15d53;
-  --teal: #505050;
+  --teal: #81bcb6;
+  --black: #231f20;
   --text-color: #424242;
   --link-color: var(--text-color);
-  --link-hover-color: #1d3ecf;
+  --link-hover-color: var(--text-color);
   --body-font-family: "Montserrat", "Montserrat Fallback", "sans-serif";
   --heading-font-family: "Aleo", "Aleo Fallback", "serif";
   --body-font-size-m: 18px;
@@ -33,6 +37,12 @@
   --nav-height: 64px;
   --page-width: 1200px;
 }
+
+/* theme colors */
+.block { --theme-clr-background: #fff; --theme-clr-text: var(--text-color) }
+.yellow { --theme-clr-background: var(--yellow); --theme-clr-text: var(--text-color) }
+.teal { --theme-clr-background: var(--teal); --theme-clr-text: var(--text-color) }
+.red { --theme-clr-background: var(--red); --theme-clr-text: var(--text-color) }
 
 /* fallback fonts */
 @font-face {
@@ -206,7 +216,6 @@
 body {
   display: none;
   margin: 0;
-  background-color: var(--background-color);
   color: var(--text-color);
   font-family: var(--body-font-family);
   font-size: var(--body-font-size-m);
@@ -274,7 +283,6 @@ code, pre {
 pre {
   padding: 16px;
   border-radius: 8px;
-  background-color: var(--light-color);
   overflow-x: auto;
   white-space: pre;
 }
@@ -384,7 +392,7 @@ div[class*="-wrapper"] > div {
 
 
 
-/* leverage word for table/div alignment */
+/* use word table alignment to position elements */
 div[data-align], div[data-valign] { display: flex }
 
 /* Horizontal alignment */
