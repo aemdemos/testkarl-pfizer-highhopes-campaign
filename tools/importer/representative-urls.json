@@ -1,9 +1,9 @@
 {
-  "originUrl": "https://www.highhopes-campaign.co.uk/",
+  "originUrl": "https://www.highhopes-campaign.co.uk",
   "totalUrls": 8,
   "urls": [
     {
-      "url": "https://www.highhopes-campaign.co.uk/",
+      "url": "https://www.highhopes-campaign.co.uk",
       "source": "NAV"
     },
     {
@@ -25,17 +25,17 @@
     {
       "url": "https://highhopes-campaign.co.uk/terms-of-use",
       "repCount": 1,
-      "source": "SITEMAP"
+      "source": "SITEMAPS"
     },
     {
       "url": "https://highhopes-campaign.co.uk/parent-resources",
       "repCount": 1,
-      "source": "SITEMAP"
+      "source": "SITEMAPS"
     },
     {
       "url": "https://highhopes-campaign.co.uk/teacher-resources",
       "repCount": 1,
-      "source": "SITEMAP"
+      "source": "SITEMAPS"
     }
   ],
   "crawlOptions": {
@@ -45,7 +45,7 @@
     "limit": -1,
     "sameDomain": true,
     "keepHash": false,
+    "strategy": "sitemaps",
     "logger": {}
-  },
-  "source": "SITEMAP"
+  }
 }
