@@ -1,14 +1,5 @@
 export default function decorate(block) {
   const cols = [...block.firstElementChild.children];
-  const variants = block.className
-    .replace('block', '')
-    .replace('aicolumns', '')
-    .trim();
-  if (variants) {
-    variants.split(/\s+/).forEach((cls) => {
-      block.parentElement.classList.add(cls);
-    });
-  }
 
   block.classList.add(`cols-${cols.length}`);
 

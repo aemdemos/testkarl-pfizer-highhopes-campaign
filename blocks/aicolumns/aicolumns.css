@@ -1,64 +1,51 @@
+/* stylelint-disable no-descending-specificity */
 
 .aicolumns-wrapper {
-  background-color: var(--yellow); /* Use the CSS variable for yellow background color */
-  padding: 0; /* Ensure no padding */
-  margin: 0; /* Ensure no margin */
-  width: 100%; /* Ensure the container width is 100% of the viewport width */
-  display: flex;
-  align-items: center; /* Center content vertically */
-  justify-content: center; /* Center content horizontally */
+  background: var(--theme-clr-bg);
+  color: var(--theme-clr-txt);
 }
 
 .aicolumns {
   display: flex;
-  align-items: center; /* Center items vertically */
-  justify-content: space-between; /* Space between the columns */
-  width: 90%; /* Reduce width to create more padding */
-  max-width: 1200px; /* Optionally set a max-width */
-  margin: 0 auto; /* Center the block horizontally */
-}
+  padding: 0 32px;
 
-.aicolumns > div {
-  display: flex;
-  flex-direction: row; /* Ensure side-by-side layout */
-  align-items: center; /* Center items vertically */
-  justify-content: space-between; /* Space between elements */
-  width: 100%; /* Ensure the div takes up full width */
-}
+  > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
 
-.aicolumns > div > div:first-child {
-  flex: 0.3; /* Adjust flex value to make the text block more compact */
-  padding: 0 20px; /* Adjust padding for spacing */
-  display: flex;
-  flex-direction: column; /* Stack text elements vertically */
-  justify-content: center; /* Center text vertically */
-  text-align: left; /* Align text to the left */
-}
+    .cols-2 & > div { width: 50% }
+    .cols-3 & > div { width: 33.3% }
+    .cols-4 & > div { width: 25% }
+  }
 
-.aicolumns > div > .aicolumns-img-col {
-  flex: 0.7; /* Adjust flex value to balance the image block size */
-  padding: 0; /* Remove padding to allow images to occupy more space */
-  display: flex;
-  justify-content: center; /* Center images horizontally */
-  align-items: center; /* Center image vertically */
-}
+  h1 {
+    color: var(--black);
+    margin: 0;
+  }
 
-.aicolumns img {
-  max-width: 100%; /* Ensure images are responsive */
-  height: auto;
-}
+  &.phases {
+    h2 {
+      color: var(--red);
+      margin-bottom: 0;
+    }
 
-.aicolumns h1 {
-  font-size: 3em; /* Adjust font size */
-  font-weight: bold; /* Make text bold */
-  margin: 0; /* Remove default margins */
-  line-height: 1.2; /* Adjust line height */
-  margin-bottom: 10px; /* Adjust margin below the heading */
-}
+    h3 {
+      margin-top: 0;
+      min-height: 100px;
+    }
+  }
 
-.aicolumns p {
-  margin: 0;
-  font-size: 1.5em; /* Adjust font size */
-  line-height: 1.2; /* Adjust line height */
-  padding-top: 0.5em; /* Adjust padding for tighter spacing */
+  h2 {
+    a {
+      color: var(--red);
+      text-decoration: underline;
+    }
+  }
+
+  p {
+    margin: 0;
+    padding: 0;
+  }
 }

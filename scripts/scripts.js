@@ -55,6 +55,22 @@ function buildAutoBlocks(main) {
 }
 
 /**
+ * Decorates links in the main element by adding a 'button' class to links
+ * that contain '[button]' in their text content and removing the '[button]' text.
+ *
+ * @param {Element} main - The container element containing the links to be decorated.
+ */
+export function decorateLinks(main) {
+  main.querySelectorAll('a').forEach((a) => {
+    if (a.textContent.includes('[button]')) {
+      a.classList.add('button');
+      a.textContent = a.textContent.replace('[button]', '').trim();
+      a.setAttribute('title', a.getAttribute('title').replace('[button]', '').trim());
+    }
+  });
+}
+
+/**
  * Decorates the main element.
  * @param {Element} main The main element
  */
@@ -68,6 +84,7 @@ export function decorateMain(main) {
   buildAutoBlocks(main);
   decorateSections(main);
   decorateBlocks(main);
+  decorateLinks(main);
 }
 
 /**

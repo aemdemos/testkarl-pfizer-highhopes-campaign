@@ -1,0 +1,138 @@
+.faq-tabs-wrapper {
+  background: var(--background);
+  padding: 60px 0;
+}
+
+.faq-tabs {
+  .tabs-list {
+    display: flex;
+    max-width: 100%;
+    font-size: var(--body-font-size-xs);
+    border-radius: 5px;
+    padding: 0 30px;
+
+    button {
+      flex: 1;
+      margin: 0;
+      height: 88px;
+      font-family: var(--heading-font-family);
+      font-size: var(--heading-font-size-l);
+      font-weight: bold;
+      background: #fff;
+      transition: all 140ms ease-in-out;
+      cursor: pointer;
+      border-radius: 5px;
+      border: 0;
+
+      &[aria-selected='true'] {
+        background: var(--red);
+        color: #fff;
+      }
+    }
+  }
+
+  .tabs-panel {
+    overflow: auto;
+  }
+
+  .tabs-panel[aria-hidden='true'] {
+    display: none;
+  }
+}
+
+.accordion-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: var(--heading-font-size-l);
+}
+
+.accordion-question {
+  position: relative;
+  width: 100%;
+  text-align: left;
+  font-weight: bold;
+  padding: 15px 40px 15px 15px;
+  background: #fff;
+  cursor: pointer;
+  border-radius: 0;
+  transition: all 140ms ease-in-out;
+  margin: 20px 0 0;
+  border: 0;
+  box-shadow: rgba(0 0 0 / 15%) 0 2px 4px 0;
+
+  span {
+    font-weight: bold;
+  }
+
+  &::after {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 26px;
+    font-weight: 200;
+  }
+
+  &[aria-expanded='false'] {
+    background: #fff;
+    span { color: var(--red) }
+
+    &::after {
+      content: '+';
+      color: var(--red);
+    }
+  }
+
+  &[aria-expanded='true'] {
+    background: var(--red);
+    color: #fff;
+
+    &::after { content: '-' }
+  }
+}
+
+
+.accordion-answer {
+  max-height: 0;
+  background: #fff;
+  font-size: var(--body-font-size-m);
+  font-weight: 500;
+  opacity: 0;
+  overflow: hidden;
+  transition: max-height 0.6s ease-in-out, opacity 0.6s ease-in-out, transform 0.6s ease-in-out;
+  will-change: max-height, opacity, transform;
+
+  div {
+    padding: 20px;
+    border-bottom: 4px solid var(--red);
+  }
+
+  span {
+    font-weight: bold;
+  }
+
+  &[aria-hidden='false'] {
+    max-height: 1000px;
+    opacity: 1;
+  }
+}
+
+
+
+@media (width >= 600px) {
+  .faq-tabs {
+    .tabs-list {
+      font-size: var(--body-font-size-s);
+    }
+  }
+}
+
+@media (width >= 900px) {
+  .faq-tabs {
+    .tabs-list {
+      font-size: var(--body-font-size-m);
+    }
+  }
+}
