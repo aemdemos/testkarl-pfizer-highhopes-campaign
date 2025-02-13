@@ -3,5 +3,5 @@ Please always provide the [GitHub issue(s)](../issues) your PR is for, as well a
 Fix #<gh-issue-id>
 
 Test URLs:
-- Before: https://main--pfizer-highhopes-campaign--aemdemos.aem.live/
-- After: https://main--pfizer-highhopes-campaign--aemdemos.aem.live/
+- Before: https://main--testkarl-pfizer-highhopes-campaign--aemdemos.aem.live/
+- After: https://main--testkarl-pfizer-highhopes-campaign--aemdemos.aem.live/
