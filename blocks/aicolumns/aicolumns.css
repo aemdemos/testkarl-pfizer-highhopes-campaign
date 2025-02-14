@@ -1,51 +1,52 @@
-/* stylelint-disable no-descending-specificity */
 
 .aicolumns-wrapper {
-  background: var(--theme-clr-bg);
-  color: var(--theme-clr-txt);
+  background: var(--yellow); /* Yellow background */
+  color: var(--black); /* Black text color */
+  padding: 40px 20px; /* Add spacing around the block */
 }
 
 .aicolumns {
-  display: flex;
-  padding: 0 32px;
+  display: flex; /* Use flexbox for side-by-side layout */
+  gap: 8px; /* Tighten spacing between columns */
+  align-items: flex-start; /* Align content closer to the top */
+}
 
-  > div {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 40px;
+.aicolumns > div {
+  display: flex; /* Ensure inner divs are laid out correctly */
+  flex-direction: row; /* Ensure side-by-side layout */
+  justify-content: space-between; /* Distribute space between elements */
+}
 
-    .cols-2 & > div { width: 50% }
-    .cols-3 & > div { width: 33.3% }
-    .cols-4 & > div { width: 25% }
-  }
+.aicolumns > div > div:first-child {
+  flex: 1.8; /* Make the left column wider for graphic prominence */
+  display: flex; /* Flexbox for the left column content */
+  justify-content: center; /* Center the image horizontally */
+  align-items: flex-start; /* Align the image closer to the top */
+}
 
-  h1 {
-    color: var(--black);
-    margin: 0;
-  }
+.aicolumns > div > div:last-child {
+  flex: 0.8; /* Make the right column narrower */
+  display: flex; /* Flexbox for the text column */
+  flex-direction: row; /* Ensure proper alignment */
+  align-items: flex-start; /* Align text to the top */
+}
 
-  &.phases {
-    h2 {
-      color: var(--red);
-      margin-bottom: 0;
-    }
+.aicolumns-img-col img {
+  width: 110%; /* Slightly enlarge the graphic */
+  height: auto; /* Maintain image aspect ratio */
+  transform: translateY(-10px); /* Shift graphic slightly upward */
+}
 
-    h3 {
-      margin-top: 0;
-      min-height: 100px;
-    }
-  }
+.aicolumns p {
+  font-family: var(--body-font-family); /* Use body font */
+  font-size: var(--body-font-size-m); /* Standard paragraph size */
+  line-height: 1.6; /* Improved readability */
+  margin-top: 0; /* Align text closer to the top */
+}
 
-  h2 {
-    a {
-      color: var(--red);
-      text-decoration: underline;
-    }
-  }
-
-  p {
-    margin: 0;
-    padding: 0;
-  }
+.aicolumns h1 {
+  font-family: var(--heading-font-family); /* Use heading font */
+  font-size: var(--heading-font-size-xxl); /* Larger bold heading */
+  font-weight: bold;
+  margin-bottom: 10px;
 }
