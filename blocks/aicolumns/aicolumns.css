@@ -1,43 +1,46 @@
 
 .aicolumns-wrapper {
-  background: var(--yellow); /* Set the background to yellow */
+  background: var(--yellow); /* Ensure background is yellow */
 }
 
 .aicolumns {
   display: flex; /* Use flexbox for side-by-side layout */
-  flex-direction: row; /* Ensure elements are aligned horizontally */
-  align-items: center; /* Vertically align the columns */
-  gap: 16px; /* Adjust spacing between columns */
-  padding: 0 32px; /* Add consistent padding on the sides */
+  flex-direction: row-reverse; /* Reverse the order of the columns (image on the right, text on the left) */
+  align-items: center; /* Ensure vertical alignment of both columns */
+  justify-content: space-between; /* Ensure proper spacing between columns */
+  gap: 90px; /* Increase spacing between columns for better separation */
+  padding: 0 40px; /* Add horizontal padding for alignment */
 }
 
 .aicolumns > div {
-  flex: 1; /* Allow both columns to take up equal space */
-  display: flex; /* Use flexbox for internal content */
-  flex-direction: row; /* Ensure the content within each column is horizontal */
+  flex: 1; /* Ensure both columns take up equal space */
+  display: flex; /* Enable flexbox for internal content */
+  flex-direction: row; /* Maintain horizontal alignment within each column */
 }
 
 .aicolumns > div:first-child {
-  justify-content: center; /* Center the image horizontally in its column */
-  align-items: center; /* Center the image vertically in its column */
-}
-
-.aicolumns > div:first-child .aicolumns-img-col {
-  display: flex; /* Ensure proper alignment of image container */
-  justify-content: center; /* Center the image inside the container */
+  justify-content: center; /* Center the image horizontally */
   align-items: center; /* Center the image vertically */
 }
 
+.aicolumns > div:first-child .aicolumns-img-col {
+  display: flex;
+  justify-content: center; /* Center the image inside its container */
+  align-items: center;
+}
+
 .aicolumns > div:first-child .aicolumns-img-col img {
-  max-width: 100%; /* Allow the image to scale proportionately */
+  max-width: 100%; /* Scale the image to better match the original */
   height: auto; /* Maintain aspect ratio */
 }
 
 .aicolumns > div:nth-child(2) {
-  justify-content: flex-start; /* Align text content to the left */
-  align-items: flex-start; /* Ensure text aligns to the top */
+  justify-content: center; /* Center the text vertically */
+  align-items: flex-start; /* Align the text to the left */
+  max-width: 440px; /* Reduce the width of the text block */
 }
 
 .aicolumns > div:nth-child(2) p {
   margin: 0; /* Remove default paragraph margins */
+  line-height: 1.4; /* Tighten line spacing for visual cohesion */
 }
